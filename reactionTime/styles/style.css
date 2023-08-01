@@ -1,0 +1,41 @@
+div{
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    height: 50vh;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+.blue-screen{
+    background-color: rgb(0, 162, 255);
+}
+.green-screen{
+    background-color: rgb(37, 202, 37);
+}
+.red-screen{
+    background-color: rgb(241, 52, 52);
+}
+p{
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.test-name{
+    padding-top: 55%;
+}
+.click-name{
+    padding-bottom: 55%;
+}
+.get-ready{
+    padding-top: 200px;
+}
+.click-text{
+    padding-top: 90px;
+    font-size: 100px;
+}
+.too-early{
+    padding-top: 180%;
+}
