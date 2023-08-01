@@ -14,6 +14,10 @@ disResult.addEventListener('click', () => {
 
     randomizeNum = Math.random();
 
+    if (screenCount === 4){
+        location.reload()
+    }
+
     if (myArray.length === 3){ // Moves onto next page (avg) 
         screenCount = 3;
     }
